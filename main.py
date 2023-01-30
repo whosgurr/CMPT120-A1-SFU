@@ -10,6 +10,7 @@ def user_prompt():
         elif n < 0:
             print("PrimeFinder ignores negative numbers!")
             iterations += 1
+            "PRINT YAY"
 
         else:
             print(f"{n} is a prime number.")
