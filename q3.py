@@ -1,5 +1,6 @@
 
 def user_prompt():
+
     num_primes = 0
     iterations = int(input("How many numbers do you want to check?\n"))
     for i in range(iterations):
