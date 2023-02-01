@@ -1,8 +1,15 @@
+def is_not_multiple(number):
+    for i in range(2, number):
+        if number % i == 0:
+            return True
+    return False
+
 
 def user_prompt():
 
     num_primes = 0
     iterations = int(input("How many numbers do you want to check?\n"))
+
     for i in range(iterations):
         n = int(input("Enter a positive integer:\n"))
         if n % 2 == 0 and n != 2:

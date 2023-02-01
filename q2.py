@@ -14,7 +14,7 @@ def multiply_function(x, y):
 
 
 def division_function(x, y):
-    answer = x/y
+    answer = x / y
     return answer
 
 
@@ -22,8 +22,7 @@ def main():
     iterations = int(input("Hi, how many operations do you want MagiCal to perform?\n"))
     for i in range(iterations):
         try:
-            operator_select = int(input("Select the operator from the list of Addition (1), Subtraction (2), "
-                                        "Multiplication (3), Division (4):\n"))
+            operator_select = int(input("Select the operator from the list of Addition (1), Subtraction (2), Multiplication (3), Division (4):\n"))
             if operator_select in [1, 2, 3, 4]:
                 x = int(input("Enter the first number in the interval of [0,100]:\n"))
                 y = int(input("Enter the second number in the interval of [0,100]:\n"))
